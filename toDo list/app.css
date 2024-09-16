@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main {
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 0px 3px 3px 2px greenyellow;
+    letter-spacing: 1px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 25%;
+    background-color: bisque;
+}
+
+h1,
+h2 {
+    color: darkblue;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#input-tasks,
+#submit {
+    text-align: center;
+    width: 240px;
+    height: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#submit {
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    transition: all 500ms;
+}
+
+#submit:hover {
+    background-color: black;
+    color: orange;
+    box-shadow: 0px 2px 3px 3px yellowgreen;
+}
+
+.display {
+    height: 75%;
+    width: 100%;
+    text-align: center;
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#display-tasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2 {
+    color: darkslateblue;
+    letter-spacing: 3px;
+    font-style: normal;
+}
